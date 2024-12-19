@@ -1,9 +1,9 @@
 import styles from './page.module.css';
 
-export default function andintheend() {
+export default function scrapbook() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.heading}>When it's time to say goodbye</h1>
+      <h1 className={styles.heading}>Dear DiaryPage</h1>
       <p>Content goes here...</p>
     </div>
   );

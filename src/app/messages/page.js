@@ -1,7 +1,10 @@
-import React from "react";
+import styles from './page.module.css';
 
-const Page = () => {
-    return <h1>Welcome to the Messages Page</h1>;
-};
-
-export default Page;
+export default function messages() {
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.heading}>Just a quick note to say</h1>
+      <p>Content goes here...</p>
+    </div>
+  );
+}

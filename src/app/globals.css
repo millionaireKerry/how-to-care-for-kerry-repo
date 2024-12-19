@@ -1,82 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-}
-
-h1 {
-  color: #4CAF50;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-}
-
-label {
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-input,
-select,
-button {
-  margin-top: 5px;
-  padding: 10px;
-  font-size: 16px;
-}
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  padding: 0;
-}
-
-h1 {
-  color: #4CAF50;
-  margin-bottom: 20px;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-label {
-  margin-top: 10px;
-  font-weight: bold;
-}
-
-input,
-select,
-button {
-  margin-top: 5px;
-  padding: 10px;
-  font-size: 16px;
-}
-
-button {
-  margin-top: 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #45a049;
-}
+    font-family: "Cormorant Garamond", serif;
+    background: url("https://firebasestorage.googleapis.com/v0/b/how-to-care-for-kerry.firebasestorage.app/o/Background.png?alt=media&token=b283fd07-9440-4e77-b2d8-ea10bb2ecce1");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  

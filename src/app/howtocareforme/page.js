@@ -1,7 +1,10 @@
-import React from "react";
+import styles from './page.module.css';
 
-const Page = () => {
-    return <h1>Welcome to the How To Care For Me Page</h1>;
-};
-
-export default Page;
+export default function howtocareforme() {
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.heading}>My care done my way</h1>
+      <p>Content goes here...</p>
+    </div>
+  );
+}
